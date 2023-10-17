@@ -20,7 +20,7 @@ module.exports = (sequelize, DataTypes) => {
       allowNull: false,
       validate: {
         notNull: {
-          msg: "Max Capacity cannot be empty",
+          msg: "Patient ID cannot be empty",
         },
       },
     },
@@ -28,7 +28,7 @@ module.exports = (sequelize, DataTypes) => {
       type: DataTypes.INTEGER,
       validate: {
         notNull: {
-          msg: "Max Capacity cannot be empty",
+          msg: "Slot ID cannot be empty",
         },
       },
     },
