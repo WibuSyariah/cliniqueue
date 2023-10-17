@@ -8,7 +8,7 @@ On this app I implement MVC, RESTful API Design, Router Pattern, Async/Await and
 
 ## Schema
 
-The Entity Relationship Diagram is located at schema folder, the branches arrow meaning is One To Many relationship and the straight line meaning is One to One relationship
+The Entity Relationship Diagram is located at schema folder, the branches arrow meaning is One To Many relationship
 
 ## Running the application on Docker
 
