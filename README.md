@@ -22,6 +22,6 @@ after that you could try to hit the API
 
 ## API Documentation
 
-[Postman API](https://api.postman.com/collections/30551856-3f74c2da-da95-43c4-8623-5b62210cc1dc?access_key=PMAT-01HCYFPS4YSVHRHPGBGNMJXPTQ)
+[Postman API](https://www.postman.com/lunar-shadow-787443/workspace/zi-care)
 
 
