@@ -26,6 +26,7 @@ module.exports = (sequelize, DataTypes) => {
     },
     slotId: {
       type: DataTypes.INTEGER,
+      allowNull: false,
       validate: {
         notNull: {
           msg: "Slot ID cannot be empty",
