@@ -43,19 +43,7 @@ module.exports = (sequelize, DataTypes) => {
           msg: "End Time must be a date",
         },
       },
-    },
-    maxCapacity: {
-      type: DataTypes.INTEGER,
-      allowNull: false,
-      validate: {
-        isInt: {
-          msg: "Max Capacity must be an integer"
-        },
-        notNull: {
-          msg: "Max Capacity cannot be empty",
-        },
-      },
-    },
+    }
   }, {
     sequelize,
     modelName: 'ConsultationSlot',

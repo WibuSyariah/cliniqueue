@@ -7,12 +7,12 @@ const helmet = require('helmet');
 const xss = require('xss-clean');
 const morgan = require('morgan');
 
-// const router = require("./routes");
+const router = require("./routes");
 const { AppError } = require('./helpers');
 
 const ENV = process.env;
 const PORT = ENV.PORT || 3000;
-const API_PREFIX = ENV.API_PREFIX
+const BASE_URL_PREFIX = ENV.BASE_URL_PREFIX
 const NODE_ENV = ENV.NODE_ENV
 
 const app = express();
@@ -32,7 +32,7 @@ app.get('/', (req, res) => {
   })
 })
 
-// app.use(API_PREFIX, router)
+app.use(BASE_URL_PREFIX, router)
 
 // 404 Handler
 app.all('*', (req, res, next) => {
